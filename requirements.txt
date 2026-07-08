@@ -1,0 +1,30 @@
+# Python >= 3.12 is required (the codebase uses PEP 701 nested-quote f-strings).
+#
+# Install PyTorch with the CUDA build matching your system first, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# Multi-GPU pretraining/finetuning is launched with torchrun (DDP).
+
+# --- Core: pretraining, finetuning and downstream evaluation ---
+torch>=2.1
+numpy
+pandas
+scikit-learn
+scipy
+tqdm
+transformers
+PyYAML
+GPUtil
+
+# --- Data preprocessing (building tensors from the raw MIMIC-IV CSVs) ---
+numba
+joblib
+multiprocess
+
+# --- Optional: tabular baseline (pfm_mimic4/ML_method/ihm.py) ---
+# xgboost
+# lightgbm
+# catboost
+
+# --- Optional: analysis / plotting (pfm_mimic4/inspect, generative_modeling) ---
+# matplotlib
+# umap-learn
