@@ -398,8 +398,8 @@ MIMIC-IV database if you use this preprocessing pipeline.
 
 ```bibtex
 @inproceedings{tcf2026,
-  title     = {<PAPER TITLE>},
-  author    = {<AUTHORS>},
+  title     = {Time-Conditioned Foreseeing: An EHR-Specific Foundation Model for Irregular Dynamics and Calendrical Time},
+  author    = {Bong Gyun Kang, Junyong Ahn, Hyeongrok Han, Sungroh Yoon},
   booktitle = {International Conference on Machine Learning (ICML)},
   year      = {2026}
 }
